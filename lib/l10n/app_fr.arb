@@ -1,0 +1,538 @@
+{
+  "@@locale": "fr",
+  "appName": "MesCheques",
+  "total": "Total",
+  "totalAmount": "Montant total",
+  "inStock": "En stock",
+  "used": "Utilisé",
+  "all": "Tous",
+  "givenBy": "Donné par",
+  "givenTo": "Donné à",
+  "amount": "Montant",
+  "checkNumber": "N° du chèque",
+  "checkDate": "Date du chèque",
+  "receivedDate": "Date de réception",
+  "paymentDate": "Date de paiement",
+  "notes": "Remarques",
+  "search": "Rechercher...",
+  "searchHint": "Rechercher par nom, numéro, remarque...",
+  "sort": "Trier",
+  "sortBy": "Trier par",
+  "filters": "Filtres",
+  "filterSearch": "Filtres de recherche",
+  "reset": "Réinitialiser",
+  "apply": "Appliquer",
+  "clearAll": "Tout effacer",
+  "save": "Enregistrer",
+  "saveCheck": "ENREGISTRER LE CHÈQUE",
+  "saveChanges": "ENREGISTRER LES MODIFICATIONS",
+  "edit": "Modifier",
+  "editCheck": "Modifier le chèque",
+  "delete": "Supprimer",
+  "deletePermanently": "Supprimer définitivement",
+  "restore": "Restaurer",
+  "trash": "Corbeille",
+  "emptyTrash": "Vider",
+  "emptyTrashTitle": "Vider la corbeille ?",
+  "emptyTrashDesc": "Tous les chèques de la corbeille seront définitivement effacés. Cette action est irréversible.",
+  "trashEmpty": "La corbeille est vide",
+  "trashBanner": "Les éléments de la corbeille sont supprimés automatiquement après 15 jours.",
+  "settings": "Paramètres",
+  "backup": "Sauvegarde",
+  "createBackup": "Créer une sauvegarde chiffrée",
+  "createBackupDesc": "Fichier .mcheques protégé par mot de passe (AES-256)",
+  "restoreBackup": "Restaurer une sauvegarde",
+  "restoreBackupDesc": "Importer un fichier .mcheques existant",
+  "exportPdf": "PDF",
+  "printPdf": "Imprimer ou prévisualiser le PDF",
+  "sharePdf": "Partager le PDF (WhatsApp, Mail, etc.)",
+  "markAsUsed": "MARQUER COMME UTILISÉ",
+  "markAsUsedTitle": "Marquer comme utilisé",
+  "markAsUsedDesc": "Renseignez la personne ou entreprise à qui vous donnez ce chèque.",
+  "confirmPayment": "Confirmer le paiement",
+  "cancelPayment": "Annuler le paiement",
+  "cancelPaymentTitle": "Annuler le paiement ?",
+  "cancelPaymentDesc": "Ce chèque repassera avec le statut \"En stock\" et les données de paiement seront effacées.",
+  "cancelPaymentBtn": "Annuler le paiement (remettre en stock)",
+  "newCheck": "Nouveau chèque",
+  "checkDetails": "Détails du chèque",
+  "receptionSection": "RÉCEPTION",
+  "paymentSection": "PAIEMENT",
+  "paymentQuestion": "Paiement (déjà utilisé ?)",
+  "paymentQuestionUsed": "Paiement (chèque utilisé ?)",
+  "paymentActiveDesc": "Ce chèque a été transmis à un tiers",
+  "paymentInactiveDesc": "Laisser décoché s'il est encore en stock",
+  "stockNotice": "Ce chèque est actuellement en stock (non utilisé).",
+  "optional": "optionnel",
+  "notesOptional": "Remarques (optionnel)",
+  "language": "Langue",
+  "french": "Français",
+  "arabic": "العربية",
+  "languageDesc": "Changer la langue d'affichage",
+  "dataAndSecurity": "DONNÉES & SÉCURITÉ",
+  "about": "À PROPOS",
+  "offline100": "100 % hors ligne",
+  "offline100Desc": "Toutes vos données restent privées et stockées sur votre appareil.",
+  "aes256": "Chiffrement AES-256",
+  "aes256Desc": "Les sauvegardes sont protégées avec dérivation de clé SHA-256.",
+  "trash15Days": "Corbeille 15 jours",
+  "trash15DaysDesc": "Nettoyage automatique des éléments supprimés depuis plus de 15 jours.",
+  "noChecksFound": "Aucun résultat trouvé",
+  "noChecksFoundDesc": "Essayez de modifier vos filtres ou termes de recherche.",
+  "noChecksEmpty": "Aucun chèque enregistré",
+  "noChecksEmptyDesc": "Appuyez sur le bouton \"＋\" ci-dessous pour ajouter votre premier chèque.",
+  "checkCount": "{count, plural, =0{Aucun chèque} =1{1 chèque} other{{count} chèques}}",
+  "@checkCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "trashRemaining": "Reste {days, plural, =0{0 jour} =1{1 jour} other{{days} jours}}",
+  "@trashRemaining": {
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "receivedOn": "Reçu le : {date}",
+  "@receivedOn": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "checkDateLabel": "Chèque : {date}",
+  "@checkDateLabel": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "paidToOn": "Payé à {name} le {date}",
+  "@paidToOn": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "date": { "type": "String" }
+    }
+  },
+  "deletedOn": "Supprimé le {date}",
+  "@deletedOn": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "cancel": "Annuler",
+  "confirm": "Confirmer",
+  "back": "Retour",
+  "understood": "Compris",
+  "allGivers": "Tous les émetteurs",
+  "allReceivers": "Tous les bénéficiaires",
+  "statusLabel": "Statut du chèque",
+  "min": "Min",
+  "max": "Max",
+  "from": "Du",
+  "to": "Au",
+  "checkNumberExample": "ex: CHQ-00125",
+  "amountExample": "ex: 2500.00",
+  "giverHint": "Nom de la personne ou entreprise",
+  "receiverHint": "Nom de la personne ou fournisseur",
+  "notesHint": "ex: Facture #45, acompte travaux...",
+  "notesFilterHint": "ex: matériel, avance...",
+  "checkAdded": "Chèque ajouté avec succès.",
+  "checkUpdated": "Chèque modifié avec succès.",
+  "checkMovedToTrash": "Chèque déplacé dans la corbeille.",
+  "checkRestored": "Chèque \"{number}\" restauré avec succès.",
+  "@checkRestored": {
+    "placeholders": {
+      "number": { "type": "String" }
+    }
+  },
+  "checkDeletedPerm": "Chèque supprimé définitivement.",
+  "trashCleared": "La corbeille a été vidée.",
+  "cannotRestoreTitle": "Impossible de restaurer",
+  "duplicateNumberError": "Ce numéro de chèque existe déjà parmi les chèques actifs.",
+  "duplicateNumberErrorOther": "Ce numéro de chèque est déjà utilisé par un autre chèque.",
+  "requiredField": "{field} est obligatoire",
+  "@requiredField": {
+    "placeholders": {
+      "field": { "type": "String" }
+    }
+  },
+  "invalidAmount": "Veuillez saisir un montant valide et supérieur à 0",
+  "paymentDateBeforeReception": "La date de paiement doit être postérieure ou égale à la date de réception",
+  "paymentDateRequiredIfReceiver": "La date de paiement est obligatoire si le bénéficiaire est renseigné",
+  "receiverRequiredIfDate": "Veuillez spécifier à qui le chèque a été donné",
+  "paymentCancelled": "Paiement annulé. Le chèque est de nouveau en stock.",
+  "pdfReportTitle": "MESCHEQUES : Liste des chèques",
+  "pdfExportedOn": "Exporté le : {date}",
+  "@pdfExportedOn": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "pdfPage": "Page {page} / {total}",
+  "@pdfPage": {
+    "placeholders": {
+      "page": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "encryptBackup": "Chiffrer la sauvegarde",
+  "backupPasswordPrompt": "Définissez un mot de passe pour chiffrer votre fichier de sauvegarde (AES-256). Ne l'oubliez pas !",
+  "passwordLabel": "Mot de passe *",
+  "confirmPasswordLabel": "Confirmer le mot de passe *",
+  "passwordMinLength": "Minimum 4 caractères",
+  "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+  "backupAndShare": "Sauvegarder et partager",
+  "backupSuccess": "Sauvegarde créée et prête à être partagée.",
+  "backupError": "Erreur lors de la sauvegarde : {error}",
+  "@backupError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "passwordRequired": "Mot de passe requis",
+  "fileSelected": "Fichier sélectionné : {file}",
+  "@fileSelected": {
+    "placeholders": {
+      "file": { "type": "String" }
+    }
+  },
+  "enterBackupPassword": "Saisissez le mot de passe utilisé lors de la création de cette sauvegarde :",
+  "validate": "Valider",
+  "warning": "Attention",
+  "restoreWarningDesc": "La restauration va remplacer les données actuelles de l'application par le contenu de la sauvegarde.\n\nUne sauvegarde de secours automatique sera effectuée en amont.",
+  "restoreNow": "Restaurer maintenant",
+  "restoreSuccess": "Données restaurées avec succès !",
+  "restoreFailed": "Échec de la restauration",
+  "fileSelectionError": "Erreur lors de la sélection du fichier : {error}",
+  "@fileSelectionError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "appVersion": "Version {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": { "type": "String" }
+    }
+  },
+  "noChecksToExport": "Aucun chèque à exporter.",
+  "resetFilters": "Réinitialiser les filtres",
+  "checkDateRangeFilter": "Date chèque : {from} → {to}",
+  "@checkDateRangeFilter": {
+    "placeholders": {
+      "from": { "type": "String" },
+      "to": { "type": "String" }
+    }
+  },
+  "minAmountFilter": "Min : {amount}",
+  "@minAmountFilter": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "maxAmountFilter": "Max : {amount}",
+  "@maxAmountFilter": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "sortLifo": "LIFO",
+  "sortFifo": "FIFO",
+  "sortAmountDesc": "Montant ↓",
+  "sortAmountAsc": "Montant ↑",
+  "sortCheckDateDesc": "Date chèque ↓",
+  "sortNameAsc": "Nom A-Z",
+  "giverRequired": "Veuillez renseigner le nom de l'émetteur (Donné par).",
+  "paymentDateRequired": "Veuillez spécifier la date de paiement.",
+  "paymentReceiverRequired": "Veuillez spécifier à qui le chèque a été donné.",
+  "invalidAmountShort": "Montant invalide.",
+  "saveError": "Erreur lors de l'enregistrement : {error}",
+  "@saveError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "updateError": "Erreur lors de la modification : {error}",
+  "@updateError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "giverLabel": "L'émetteur",
+  "dateOfCheck": "Date du chèque *",
+  "dateOfReception": "Date réception *",
+  "dateOfPayment": "Date de paiement *",
+  "givenToReceiver": "Donné à (Bénéficiaire)",
+  "checkNotFound": "Chèque introuvable",
+  "amountOfCheck": "Montant du chèque",
+  "givenByIssuer": "Donné par (Émetteur)",
+  "dateOnCheck": "Date inscrite sur le chèque",
+  "receiverUnknown": "Inconnu",
+  "deleteCheckTitle": "Déplacer vers la corbeille ?",
+  "deleteCheckDesc": "Le chèque restera dans la corbeille pendant 15 jours avant suppression définitive. Vous pourrez le restaurer à tout moment.",
+  "receiverPrompt": "Veuillez renseigner le bénéficiaire.",
+  "checkMarkedAsUsed": "Chèque marqué comme utilisé avec succès.",
+  "hardDeleteTitle": "Supprimer définitivement ?",
+  "hardDeleteDesc": "Voulez-vous supprimer définitivement le chèque \"{number}\" ({amount}) ? Cette action est irréversible.",
+  "@hardDeleteDesc": {
+    "placeholders": {
+      "number": { "type": "String" },
+      "amount": { "type": "String" }
+    }
+  },
+  "emptyTrashAction": "Vider la corbeille",
+  "transfer": "Transfert",
+  "transferSection": "TRANSFERT ENTRE TÉLÉPHONES",
+  "transferSectionDesc": "Envoyer ou recevoir des chèques sans Internet (Quick Share, Bluetooth, QR Wi-Fi)",
+  "sendToPhone": "Envoyer vers un autre téléphone",
+  "receiveFromPhone": "Recevoir des données",
+  "sendByFile": "Par fichier (Quick Share, Bluetooth, USB...)",
+  "sendByFileDesc": "Partager un fichier .mcheques chiffré",
+  "sendByQr": "Par QR code / Wi-Fi direct",
+  "sendByQrDesc": "Partage direct sur le même réseau ou point d'accès",
+  "receiveByFile": "Importer un fichier .mcheques",
+  "receiveByFileDesc": "Sélectionner un fichier reçu par Quick Share, Bluetooth...",
+  "receiveByQr": "Scanner un QR code / Wi-Fi direct",
+  "receiveByQrDesc": "Scanner le QR affiché sur l'autre téléphone",
+  "qrShareTitle": "Partage Wi-Fi direct",
+  "qrShareInstructions": "Connectez les deux téléphones au même Wi-Fi (ou point d'accès), puis scannez ce QR code avec le second téléphone.",
+  "transferPinLabel": "Code PIN de transfert",
+  "waitingForReceiver": "En attente de connexion du second téléphone...",
+  "transferSuccessServer": "Données envoyées avec succès !",
+  "stopSharing": "Arrêter le partage",
+  "manualConnection": "Saisie manuelle IP",
+  "ipAddress": "Adresse IP",
+  "port": "Port",
+  "scanQrTitle": "Scanner le QR code",
+  "scanQrInstructions": "Pointez la caméra vers le QR code affiché sur l'autre téléphone",
+  "cameraPermissionRequired": "L'accès à la caméra est nécessaire pour scanner le QR code.",
+  "connecting": "Connexion en cours...",
+  "transferReceived": "Données reçues avec succès !",
+  "chooseImportMode": "Choisissez le mode d'importation :",
+  "modeReplace": "Remplacer",
+  "modeReplaceDesc": "Efface les données actuelles de ce téléphone et les remplace par celles reçues (idéal pour un nouveau téléphone).",
+  "modeMerge": "Fusionner sans perte",
+  "modeMergeDesc": "Combine les données des deux téléphones en conservant tout (sans doublon, résolution des conflits).",
+  "mergePreviewTitle": "Aperçu de la fusion",
+  "fileDate": "Fichier exporté le : {date}",
+  "@fileDate": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "newChecks": "{count, plural, =0{0 nouveau chèque} =1{1 nouveau chèque} other{{count} nouveaux chèques}}",
+  "@newChecks": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "updatedChecks": "{count, plural, =0{0 chèque mis à jour} =1{1 chèque mis à jour} other{{count} chèques mis à jour}}",
+  "@updatedChecks": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "identicalChecks": "{count, plural, =0{0 chèque identique} =1{1 chèque déjà identique} other{{count} chèques déjà identiques}}",
+  "@identicalChecks": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "newPersons": "{count, plural, =0{0 nouvelle personne} =1{1 nouvelle personne} other{{count} nouvelles personnes}}",
+  "@newPersons": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "purgedSynced": "{count, plural, =0{0 chèque purgé} =1{1 chèque supprimé synchronisé} other{{count} chèques supprimés synchronisés}}",
+  "@purgedSynced": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "conflictsToResolve": "{count, plural, =0{0 conflit} =1{1 conflit à résoudre} other{{count} conflits à résoudre}}",
+  "@conflictsToResolve": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "resolveConflictsBtn": "Résoudre les conflits",
+  "mergeNow": "Fusionner maintenant",
+  "mergeSuccessTitle": "Fusion réussie !",
+  "mergeSuccessDesc": "Les données ont été fusionnées sans perte. Une sauvegarde de sécurité a été créée.",
+  "conflictsTitle": "Résolution des conflits",
+  "conflictCardTitle": "Conflit sur le chèque N° {number}",
+  "@conflictCardTitle": {
+    "placeholders": {
+      "number": { "type": "String" }
+    }
+  },
+  "conflictCardDesc": "Ce numéro existe déjà sur les deux appareils avec des identifiants différents.",
+  "incomingVersion": "Version reçue (A)",
+  "existingVersion": "Version actuelle (B)",
+  "keepIncomingOption": "Garder la version reçue (A)",
+  "keepExistingOption": "Garder la version locale (B)",
+  "keepBothOption": "Garder les deux (renommer le chèque reçu)",
+  "validateConflicts": "Valider les choix",
+  "allConflictsMustBeResolved": "Veuillez résoudre tous les conflits avant de continuer.",
+  "safetyBackupCreated": "Sauvegarde de sécurité créée.",
+  "securitySection": "SÉCURITÉ",
+  "securitySettingsTitle": "Sécurité de l'application",
+  "securitySettingsDesc": "Code PIN, biométrie, verrouillage automatique",
+  "accessProtectionSectionHeader": "Protection d'accès",
+  "modifyPinTitle": "Modifier le code PIN",
+  "modifyPinSubtitle": "Changer le code secret de l'application",
+  "biometricOptionTitle": "Empreinte / visage",
+  "biometricOptionSubtitle": "Déverrouiller avec la biométrie",
+  "biometricUnavailableSubtitle": "Non disponible sur cet appareil",
+  "biometricPromptReason": "Veuillez vous authentifier pour accéder à MesCheques",
+  "privacySectionHeader": "Confidentialité & Verrouillage",
+  "lockTimeoutTitle": "Verrouiller après",
+  "lockTimeoutImmediately": "Immédiatement",
+  "lockTimeout1Min": "1 minute",
+  "lockTimeout5Min": "5 minutes",
+  "secureWindowOptionTitle": "Masquer dans les applications récentes",
+  "secureWindowOptionSubtitle": "Bloque les captures d'écran et masque l'aperçu",
+  "recoverySectionHeader": "Code de secours",
+  "generateNewRecoveryCodeTitle": "Code de secours",
+  "generateNewRecoveryCodeSubtitle": "Voir ou régénérer le code de récupération",
+  "enterPinToRevealRecoveryCode": "Entrez votre code PIN pour générer un nouveau code de secours.",
+  "oldPinIncorrect": "Code PIN actuel incorrect",
+  "pinMismatchError": "Les deux codes ne correspondent pas",
+  "pinChangeSuccess": "Code PIN modifié avec succès",
+  "enterCurrentPin": "Entrez votre code actuel",
+  "enterNewPin": "Entrez votre nouveau code",
+  "confirmNewPin": "Confirmez votre nouveau code",
+  "createSecretPin": "Créez votre code secret",
+  "confirmSecretPin": "Confirmez votre code secret",
+  "setupStep1Of2": "Étape 1/2 : saisir votre code",
+  "setupStep2Of2": "Étape 2/2 : confirmer votre code",
+  "backToFirstStep": "Revenir à la première étape",
+  "pinLengthDigits": "{count, plural, =1{1 chiffre} other{{count} chiffres}}",
+  "@pinLengthDigits": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "pinErrorTooSimple": "Code trop simple (évitez les suites ou répétitions)",
+  "pinErrorAllIdentical": "Tous les chiffres sont identiques",
+  "pinErrorSequentialAscending": "Évitez les chiffres consécutifs croissants",
+  "pinErrorSequentialDescending": "Évitez les chiffres consécutifs décroissants",
+  "pinResetSuccess": "Code PIN réinitialisé avec succès",
+  "resetPinTitle": "Nouveau code PIN",
+  "enableBiometricDialogTitle": "Activer la biométrie ?",
+  "enableBiometricDialogMessage": "Souhaitez-vous pouvoir déverrouiller MesCheques avec votre empreinte digitale ou la reconnaissance faciale ?",
+  "enableButton": "Activer",
+  "laterButton": "Plus tard",
+  "enterYourPinPrompt": "Entrez votre code secret",
+  "appLockedOutHeading": "Application temporairement bloquée",
+  "lockoutNotice": "Trop d'essais incorrects. Réessayez dans {seconds}s",
+  "@lockoutNotice": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "incorrectPinNotice": "{remaining, plural, =0{Code incorrect} =1{Code incorrect (1 essai restant avant blocage)} other{Code incorrect ({remaining} essais restants avant blocage)}}",
+  "@incorrectPinNotice": {
+    "placeholders": {
+      "remaining": { "type": "int" }
+    }
+  },
+  "forgotPinButton": "Code oublié ?",
+  "forgotPinTitle": "Code PIN oublié",
+  "forgotPinExplanation": "Comme MesCheques fonctionne 100% hors ligne sans serveur, votre code ne peut être réinitialisé que par vous-même.",
+  "resetWithRecoveryCodeOption": "Utiliser mon code de secours",
+  "resetWithRecoveryCodeSubtitle": "Réinitialiser le PIN grâce à la clé à 12 caractères",
+  "restoreFromBackupOption": "Restauration depuis une sauvegarde",
+  "restoreFromBackupSubtitle": "Si vous avez également perdu votre code de secours",
+  "restoreFromBackupInfoMessage": "Si vous n'avez plus accès à votre code de secours, vous pouvez réinstaller l'application puis restaurer vos données à partir d'un fichier de sauvegarde .mcheques chiffré (en saisissant le mot de passe de cette sauvegarde).",
+  "closeButton": "Fermer",
+  "recoveryCodeTitle": "Code de secours",
+  "recoveryCodeResetTitle": "Récupération d'accès",
+  "recoveryCodeHeading": "Votre code de récupération",
+  "recoveryCodeDescription": "Conservez précieusement ce code unique. Il vous permettra de récupérer l'accès à vos données en cas d'oubli de votre code PIN.",
+  "copyCode": "Copier le code",
+  "codeCopied": "Code de secours copié dans le presse-papier",
+  "recoveryCodeWarning": "Attention : Sans ce code et en cas d'oubli de votre PIN, vos données financières ne pourront être récupérées sans une sauvegarde externe.",
+  "recoveryCodeConfirmCheck": "J'ai bien noté ce code de secours en lieu sûr",
+  "finishSetupButton": "Terminer et accéder à mes chèques",
+  "enterRecoveryCodeHeading": "Saisissez votre code de secours",
+  "enterRecoveryCodeSubtitle": "Entrez le code à 12 caractères (ex. K7X9-2MQ4-PL83) noté lors de la configuration.",
+  "verifyRecoveryCodeButton": "Vérifier le code",
+  "recoveryCodeInvalid": "Code de secours incorrect. Vérifiez la saisie.",
+  "developerInfo": "Développé par",
+  "developerName": "AIT ICHOU Rafik",
+  "developerRole": "DSI",
+  "developerPhone": "+212 6 00 60 76 37",
+  "developerEmail": "rafikaitichou@gmail.com",
+  "drawer": "Titulaire du chèque",
+  "drawerHint": "Nom du titulaire (propriétaire du compte)",
+  "sameAsGiver": "Identique au donneur",
+  "images": "Images du chèque",
+  "front": "Recto",
+  "back": "Verso",
+  "other": "Autre",
+  "takePhoto": "Prendre une photo",
+  "chooseImage": "Choisir une image",
+  "scanDocument": "Scanner le chèque",
+  "withImage": "Avec image",
+  "withoutImage": "Sans image",
+  "allImages": "Toutes",
+  "maxImagesReached": "Limite de 5 images par chèque atteinte",
+  "duplicateImageWarning": "Cette image a déjà été ajoutée à ce chèque",
+  "shareImageWarning": "Attention : le partage extrait l'image du coffre chiffré. Voulez-vous continuer ?",
+  "shareCheckImageText": "Photo de chèque - MesCheques",
+  "warningTitle": "Avertissement de sécurité",
+  "exportWithThumbnails": "Liste avec miniatures",
+  "exportFicheCheque": "Fiche chèque complète",
+  "exportFicheChequeDesc": "Fiche détaillée avec photos du chèque",
+  "exportWarningImages": "Attention : le fichier PDF généré ne sera pas chiffré.",
+  "backupIncludeImages": "Inclure les photos des chèques",
+  "backupDataOnly": "Données seulement (léger)",
+  "backupWithImages": "Données + photos",
+  "imageNotFound": "Image introuvable",
+  "filterByDrawer": "Titulaire",
+  "allDrawers": "Tous les titulaires",
+  "imagesFilterLabel": "Photos",
+  "newImagesCountLabel": "Nouvelles images",
+  "paymentSectionOptional": "PAIEMENT (optionnel)",
+  "checkDirectlyUsed": "Chèque directement utilisé",
+  "checkLeftInStock": "Chèque laissé en stock",
+  "chooseDate": "Choisir une date",
+  "receiverRequired": "Veuillez renseigner le bénéficiaire",
+  "share": "Partager",
+  "status": "Statut",
+  "googleDriveBackup": "Sauvegarde Google Drive",
+  "googleDriveBackupSubtitle": "Automatique, synchronisation et restauration sans perte",
+  "googleDriveConnected": "Connecté à Google Drive",
+  "googleDriveNotConnected": "Non connecté à Google Drive",
+  "connectWithGoogle": "Se connecter avec Google",
+  "disconnectAccount": "Déconnecter le compte",
+  "backupNow": "Sauvegarder maintenant",
+  "restoreFromDrive": "Restaurer depuis Drive",
+  "autoBackup": "Sauvegarde automatique",
+  "autoBackupDesc": "Sauvegarde automatique vers Drive dès que les conditions sont réunies",
+  "frequency": "Fréquence",
+  "afterEachEdit": "Après chaque modification (2 min)",
+  "daily": "Chaque jour (la nuit)",
+  "wifiOnlyImages": "Wi-Fi seulement (images)",
+  "wifiOnlyImagesDesc": "Économise le forfait de données mobiles",
+  "versionsRetained": "Versions conservées sur Drive",
+  "twoVersionsRecommended": "2 (recommandé)",
+  "oneVersionOnly": "1 version seulement",
+  "includeImagesDrive": "Inclure les photos des chèques",
+  "includeImagesDriveDesc": "Sauvegarde incrémentale (une seule fois par photo)",
+  "lastBackupLabel": "Dernière sauvegarde",
+  "backupContentLabel": "Contenu sauvegardé",
+  "storageUsedDrive": "Espace utilisé sur Drive",
+  "upToDate": "À jour",
+  "waitingConnection": "En attente de connexion",
+  "wifiRequired": "Wi-Fi requis",
+  "inProgress": "Sauvegarde en cours...",
+  "backupFailed": "Échec de la sauvegarde",
+  "restoreMode": "Mode de restauration",
+  "restoreMerge": "Fusionner (recommandé)",
+  "restoreMergeDesc": "Conserve tous les chèques du téléphone et ajoute ceux de Drive sans rien effacer.",
+  "restoreReplace": "Remplacer tout (avancé)",
+  "restoreReplaceDesc": "Efface les données du téléphone et applique la sauvegarde Drive.",
+  "confirmRestore": "Confirmer la restauration"
+}
